@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+
+}
+
+
+.container{
+    width: 1450px;
+    height: 1500px;
+    
+    margin: 0 auto;
+    /* padding: 77px 90px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+    /* border: 1px solid white; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    width: 1270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 18px;
+    
+    
+}
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    font-size: 18px;
+}
+.navbar_menu li{
+    padding: 8px 12px;
+
+}
+.navbar_menu li:hover{
+    background-color: rgba(147, 163, 163, 0.747);
+    border-radius: 4px;
+}
+.navbar_icon{
+    list-style: none;
+    display: flex;
+    padding: 0%;
+}
+.navbar_icon li{
+    padding: 8px 12px;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    .navbar_menu{
+        flex-direction:column ;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_menu li{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar_icon{
+        justify-content: center;
+        width: 100%;
+    }
+}
+/* main */
+.section-1{
+    width: 1270px;
+}
+h1{
+    font-size: 24px;
+}
+
+.ch_blanche{
+    display: flex;
+
+}
+.text{
+    font-weight: normal;
+    font-size: 19px;
+    padding-left: 100px;
+    line-height: 22px;
+}
+
+.ch_blanche{
+    align-items: center;
+    margin: 0 ;
+}
+.caracter{
+    list-style: circle;
+}
+.section-2{
+    width: 1270px;
+    
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+}
+.chemise{
+    width: 1270px;
+    /* margin: 0 90px; */
+    display: flex;
+    justify-content: space-between;
+    
+    
+    list-style: none;
+    font-weight: normal;
+    padding: 0px;
+    
+}
+
+footer{
+    width: 1270px;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+    
+}
+.rejoindre{
+    width: 200px;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.sns{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+    
+}
+.infos{
+    flex-direction: column;
+    list-style: none;
+}
