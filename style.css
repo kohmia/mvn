@@ -14,13 +14,13 @@ body{
     height: 1500px;
     
     margin: 0 auto;
-    /* padding: 77px 90px; */
+    
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
     
-    /* border: 1px solid white; */
+    
 }
 a{
     text-decoration: none;
@@ -43,7 +43,8 @@ a{
     font-size: 18px;
 }
 .navbar_menu li{
-    padding: 8px 12px;
+    padding: 8px 50px;
+   
 
 }
 .navbar_menu li:hover{
@@ -58,26 +59,7 @@ a{
 .navbar_icon li{
     padding: 8px 12px;
 }
-/* @media screen and (max-width:768px) {
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 8px 24px;
-    }
-    .navbar_menu{
-        flex-direction:column ;
-        align-items: center;
-        width: 100%;
-    }
-    .navbar_menu li{
-        width: 100%;
-        text-align: center;
-    }
-    .navbar_icon{
-        justify-content: center;
-        width: 100%;
-    }
-} */
+
 /* main */
 .section-1{
     width: 1270px;
@@ -102,7 +84,7 @@ h1{
     margin: 0 ;
 }
 .caracter{
-    list-style: circle;
+    list-style-type: disc;
 }
 .section-2{
     width: 1270px;
@@ -114,7 +96,7 @@ line-height: 22px;
 }
 .chemise{
     width: 1270px;
-    /* margin: 0 90px; */
+   
     display: flex;
     justify-content: space-between;
     
@@ -143,13 +125,13 @@ footer{
 
 .sns{
     display: flex;
-    /* justify-content: space-between; */
+    
     padding: 0;
     gap: 20px;
     list-style: none;
     
 }
 .infos{
-    /* flex-direction: column; */
+    
     list-style: none;
 }
